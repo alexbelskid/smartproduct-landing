@@ -212,16 +212,6 @@ a:hover {
     max-width: 800px;
 }
 
-.hero-logo-placeholder {
-    font-family: var(--font-body);
-    font-size: 2.5rem;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
 .hero-title {
     font-size: 3.8rem;
     line-height: 1.15;
@@ -236,6 +226,9 @@ a:hover {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: block;
+    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .hero-logo-container {
@@ -243,7 +236,7 @@ a:hover {
 }
 
 .hero-partner-logo {
-    max-width: 300px;
+    max-width: 210px;
     height: auto;
     display: block;
     margin: 20px 0;
@@ -592,16 +585,12 @@ a:hover {
         font-size: 2.4rem;
     }
 
-    .hero-logo-placeholder {
-        font-size: 1.8rem;
-    }
-
     .hero-title-small {
         font-size: 1.1rem;
     }
 
     .hero-partner-logo {
-        max-width: 180px;
+        max-width: 150px;
     }
 
     .hero-title br {
