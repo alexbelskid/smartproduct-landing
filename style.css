@@ -243,10 +243,10 @@ a:hover {
 }
 
 .hero-partner-logo {
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px 0;
 }
 
 .hero-subtitle {
