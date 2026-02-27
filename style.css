@@ -214,7 +214,7 @@ a:hover {
 
 .hero-logo-placeholder {
     font-family: var(--font-body);
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     color: var(--text-muted);
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -230,7 +230,12 @@ a:hover {
 }
 
 .hero-title-small {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
+    font-family: var(--font-body);
+    color: var(--text-muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .hero-logo-container {
@@ -585,8 +590,12 @@ a:hover {
         font-size: 2.4rem;
     }
 
-    .hero-title-small {
+    .hero-logo-placeholder {
         font-size: 1.8rem;
+    }
+
+    .hero-title-small {
+        font-size: 1.1rem;
     }
 
     .hero-partner-logo {
